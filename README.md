@@ -58,11 +58,32 @@ node -v
    ```sh
    npm i
    ```
+4. **Fill out the .env file**
+   ```env
+    BETTER_AUTH_SECRET=
+    BETTER_AUTH_URL=
+    
+    AUTH_GOOGLE_ID=
+    AUTH_GOOGLE_SECRET=
+    
+    DATABASE_URL=
+    
+    AUTH_GITHUB_ID=
+    AUTH_GITHUB_SECRET=
+    
+    NEXT_PUBLIC_APP_URL=
+    
+    ENCRYPT_KEY=
+    ENCRYPT_METHOD=
+    
+    RESEND_API_KEY=
+   ```
 
 3. **Start the server**
    ```sh
    npm run dev
    ```
+
 
 You're now ready to run the application!
 
